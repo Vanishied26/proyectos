@@ -13,10 +13,13 @@ public class ArrEjer1{
         System.out.println("Que numero desea buscar");
         num1=tecla.nextInt();
         for(int i=0;i<num.length;i++){
-            if(num.length==num1)   
+            if(num.length==num1)   {
                System.out.println("El numero esta en el arreglo");
-            else 
+            break;}
+            else {
                 System.out.println("El numero no  esta en el arreglo");
+            break;
+            }
         }
     }
     
